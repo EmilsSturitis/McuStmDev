@@ -543,17 +543,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 7050 6050 6950
 $Comp
-L Connector:USB_B_Mini J1
-U 1 1 626CA4B7
-P 850 7050
-F 0 "J1" H 907 7517 50  0000 C CNN
-F 1 "USB_B_Mini" H 907 7426 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1000 7000 50  0001 C CNN
-F 3 "~" H 1000 7000 50  0001 C CNN
-	1    850  7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0117
 U 1 1 626CB59F
 P 850 7450
@@ -1674,6 +1663,17 @@ F 1 "TestPoint" H 9808 1477 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9950 1450 50  0001 C CNN
 F 3 "~" H 9950 1450 50  0001 C CNN
 	1    9750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 62E0D195
+P -1100 6350
+F 0 "J1" H -993 7217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H -993 7126 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H -950 6350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H -950 6350 50  0001 C CNN
+	1    -1100 6350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
