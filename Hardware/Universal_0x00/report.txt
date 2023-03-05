@@ -1,0 +1,1 @@
+Info: Updated footprint J1 (MyLib:GCT_USB4105-GF-A): : (no changes)
